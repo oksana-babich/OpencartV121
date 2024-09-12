@@ -14,3 +14,84 @@
 2024-09-12 13:34:59 INFO  TC_002_LoginTest:29 - Entering valid email and password..
 2024-09-12 13:35:00 INFO  TC_002_LoginTest:33 - clicked on ligin button..
 2024-09-12 13:35:00 INFO  TC_002_LoginTest:47 - **** Finished TC_002_LoginTest  ****
+2024-09-12 13:51:19 INFO  TC_001_AccountRegistrationTest:17 - ***Starting AccountRegistrationTest****
+2024-09-12 13:51:29 ERROR TC_001_AccountRegistrationTest:54 - Test failed: element not interactable
+  (Session info: chrome=128.0.6613.120)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c900b11640050dc03543835b4027529, clickElement {id=f.8EE595C3A2070FAFD24069B922FB8B6F.d.09364B8AF2928C294E516F9A07E8578A.e.70}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53236}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53236/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3c900b11640050dc03543835b4027529)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: 3c900b11640050dc03543835b4027529
+2024-09-12 13:51:29 INFO  TC_001_AccountRegistrationTest:59 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-12 13:51:33 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2024-09-12 13:52:54 INFO  Utils:112 - [TestNG] Running:
+  D:\eclipse-workspace\SeleniumWebDriver\OpencartV121\master.xml
+
+2024-09-12 13:52:59 INFO  TC_001_AccountRegistrationTest:17 - ***Starting AccountRegistrationTest****
+2024-09-12 13:52:59 INFO  TC_001_AccountRegistrationTest:24 - Clicked on MyAccount Link.. 
+2024-09-12 13:53:00 INFO  TC_001_AccountRegistrationTest:27 - Clicked on Register Link.. 
+2024-09-12 13:53:00 INFO  TC_001_AccountRegistrationTest:31 - Providing customer details...
+2024-09-12 13:53:02 INFO  TC_001_AccountRegistrationTest:45 - Validating expected message..
+2024-09-12 13:53:02 INFO  TC_001_AccountRegistrationTest:49 - Test passed
+2024-09-12 13:53:02 INFO  TC_001_AccountRegistrationTest:59 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-12 13:53:05 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2024-09-12 13:53:06 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
+2024-09-12 13:53:06 INFO  TC_002_LoginTest:25 - clicked on login link under myaccount..
+2024-09-12 13:53:06 INFO  TC_002_LoginTest:29 - Entering valid email and password..
+2024-09-12 13:53:07 INFO  TC_002_LoginTest:33 - clicked on ligin button..
+2024-09-12 13:54:57 INFO  Utils:112 - [TestNG] Running:
+  D:\eclipse-workspace\SeleniumWebDriver\OpencartV121\master.xml
+
+2024-09-12 13:55:01 INFO  TC_001_AccountRegistrationTest:17 - ***Starting AccountRegistrationTest****
+2024-09-12 13:55:01 INFO  TC_001_AccountRegistrationTest:24 - Clicked on MyAccount Link.. 
+2024-09-12 13:55:02 INFO  TC_001_AccountRegistrationTest:27 - Clicked on Register Link.. 
+2024-09-12 13:55:02 INFO  TC_001_AccountRegistrationTest:31 - Providing customer details...
+2024-09-12 13:55:04 INFO  TC_001_AccountRegistrationTest:45 - Validating expected message..
+2024-09-12 13:55:04 INFO  TC_001_AccountRegistrationTest:49 - Test passed
+2024-09-12 13:55:04 INFO  TC_001_AccountRegistrationTest:59 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-12 13:55:08 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2024-09-12 13:55:08 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
+2024-09-12 13:55:09 INFO  TC_002_LoginTest:25 - clicked on login link under myaccount..
+2024-09-12 13:55:09 INFO  TC_002_LoginTest:29 - Entering valid email and password..
+2024-09-12 13:55:10 INFO  TC_002_LoginTest:33 - clicked on ligin button..
+2024-09-12 13:55:10 INFO  TC_002_LoginTest:47 - **** Finished TC_002_LoginTest  ****
+2024-09-12 13:55:40 INFO  TC_001_AccountRegistrationTest:17 - ***Starting AccountRegistrationTest****
+2024-09-12 13:55:51 ERROR TC_001_AccountRegistrationTest:54 - Test failed: element not interactable
+  (Session info: chrome=128.0.6613.120)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [53cd607f1b37abf88d620566fa14b4d1, clickElement {id=f.073B481A6513AE65E2B3D1837FEE45F0.d.209E9978C75CAB35257F4D6A75A1A0E6.e.77}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53829}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53829/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (53cd607f1b37abf88d620566fa14b4d1)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: 53cd607f1b37abf88d620566fa14b4d1
+2024-09-12 13:55:51 INFO  TC_001_AccountRegistrationTest:59 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-12 13:55:55 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2024-09-12 14:01:32 INFO  TC_001_AccountRegistrationTest:17 - ***Starting AccountRegistrationTest****
+2024-09-12 14:01:33 INFO  TC_001_AccountRegistrationTest:24 - Clicked on MyAccount Link.. 
+2024-09-12 14:01:33 INFO  TC_001_AccountRegistrationTest:27 - Clicked on Register Link.. 
+2024-09-12 14:01:33 INFO  TC_001_AccountRegistrationTest:31 - Providing customer details...
+2024-09-12 14:01:35 INFO  TC_001_AccountRegistrationTest:45 - Validating expected message..
+2024-09-12 14:01:35 INFO  TC_001_AccountRegistrationTest:49 - Test passed
+2024-09-12 14:01:35 INFO  TC_001_AccountRegistrationTest:59 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-12 14:01:39 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2024-09-12 14:01:39 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
+2024-09-12 14:01:40 INFO  TC_002_LoginTest:25 - clicked on login link under myaccount..
+2024-09-12 14:01:40 INFO  TC_002_LoginTest:29 - Entering valid email and password..
+2024-09-12 14:01:42 INFO  TC_002_LoginTest:33 - clicked on ligin button..
+2024-09-12 14:01:42 INFO  TC_002_LoginTest:47 - **** Finished TC_002_LoginTest  ****
+2024-09-12 14:07:50 INFO  TC_001_AccountRegistrationTest:17 - ***Starting AccountRegistrationTest****
+2024-09-12 14:07:50 INFO  TC_001_AccountRegistrationTest:24 - Clicked on MyAccount Link.. 
+2024-09-12 14:07:51 INFO  TC_001_AccountRegistrationTest:27 - Clicked on Register Link.. 
+2024-09-12 14:07:51 INFO  TC_001_AccountRegistrationTest:31 - Providing customer details...
+2024-09-12 14:07:54 INFO  TC_001_AccountRegistrationTest:45 - Validating expected message..
+2024-09-12 14:07:54 INFO  TC_001_AccountRegistrationTest:49 - Test passed
+2024-09-12 14:07:54 INFO  TC_001_AccountRegistrationTest:59 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-12 14:07:58 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2024-09-12 14:07:59 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
+2024-09-12 14:07:59 INFO  TC_002_LoginTest:25 - clicked on login link under myaccount..
+2024-09-12 14:07:59 INFO  TC_002_LoginTest:29 - Entering valid email and password..
+2024-09-12 14:08:01 INFO  TC_002_LoginTest:33 - clicked on ligin button..
+2024-09-12 14:08:01 INFO  TC_002_LoginTest:47 - **** Finished TC_002_LoginTest  ****
