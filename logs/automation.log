@@ -95,3 +95,127 @@ Session ID: 53cd607f1b37abf88d620566fa14b4d1
 2024-09-12 14:07:59 INFO  TC_002_LoginTest:29 - Entering valid email and password..
 2024-09-12 14:08:01 INFO  TC_002_LoginTest:33 - clicked on ligin button..
 2024-09-12 14:08:01 INFO  TC_002_LoginTest:47 - **** Finished TC_002_LoginTest  ****
+2024-09-12 14:09:37 INFO  TC_001_AccountRegistrationTest:17 - ***Starting AccountRegistrationTest****
+2024-09-12 14:09:47 ERROR TC_001_AccountRegistrationTest:54 - Test failed: element not interactable
+  (Session info: chrome=128.0.6613.120)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aae49d6a752e398d264330f7559297f5, clickElement {id=f.3DFE1B97CCC4F7F176B6F18B35FC2F4C.d.7E20944D4485C6DB0D1004FBDD2C9D83.e.77}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55852}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55852/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (aae49d6a752e398d264330f7559297f5)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: aae49d6a752e398d264330f7559297f5
+2024-09-12 14:09:47 INFO  TC_001_AccountRegistrationTest:59 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-12 14:09:51 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2024-09-12 14:56:29 INFO  Utils:112 - [TestNG] Running:
+  D:\eclipse-workspace\SeleniumWebDriver\OpencartV121\master.xml
+
+2024-09-12 14:56:48 INFO  TC_001_AccountRegistrationTest:17 - ***Starting AccountRegistrationTest****
+2024-09-12 14:56:48 INFO  TC_001_AccountRegistrationTest:24 - Clicked on MyAccount Link.. 
+2024-09-12 14:56:50 INFO  TC_001_AccountRegistrationTest:27 - Clicked on Register Link.. 
+2024-09-12 14:56:50 INFO  TC_001_AccountRegistrationTest:31 - Providing customer details...
+2024-09-12 14:56:52 INFO  TC_001_AccountRegistrationTest:45 - Validating expected message..
+2024-09-12 14:56:53 INFO  TC_001_AccountRegistrationTest:49 - Test passed
+2024-09-12 14:56:53 INFO  TC_001_AccountRegistrationTest:59 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-12 14:56:57 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2024-09-12 14:56:58 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
+2024-09-12 14:56:59 INFO  TC_002_LoginTest:25 - clicked on login link under myaccount..
+2024-09-12 14:56:59 INFO  TC_002_LoginTest:29 - Entering valid email and password..
+2024-09-12 14:57:00 INFO  TC_002_LoginTest:33 - clicked on ligin button..
+2024-09-12 14:57:01 INFO  TC_002_LoginTest:47 - **** Finished TC_002_LoginTest  ****
+2024-09-12 14:59:13 INFO  TC_001_AccountRegistrationTest:17 - ***Starting AccountRegistrationTest****
+2024-09-12 14:59:14 INFO  TC_001_AccountRegistrationTest:24 - Clicked on MyAccount Link.. 
+2024-09-12 14:59:15 INFO  TC_001_AccountRegistrationTest:27 - Clicked on Register Link.. 
+2024-09-12 14:59:15 INFO  TC_001_AccountRegistrationTest:31 - Providing customer details...
+2024-09-12 14:59:18 INFO  TC_001_AccountRegistrationTest:45 - Validating expected message..
+2024-09-12 14:59:18 INFO  TC_001_AccountRegistrationTest:49 - Test passed
+2024-09-12 14:59:18 INFO  TC_001_AccountRegistrationTest:59 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-12 14:59:24 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2024-09-12 15:03:07 INFO  TC_001_AccountRegistrationTest:17 - ***Starting AccountRegistrationTest****
+2024-09-12 15:03:17 ERROR TC_001_AccountRegistrationTest:54 - Test failed: element not interactable
+  (Session info: chrome=128.0.6613.120)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ff0f0833e7589a229648a370c93b6ba3, clickElement {id=f.BDC9B3CA1FD9F276290AFC38E1FA6993.d.44CB928A250245CF5B09181EBA832456.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\avokadka\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61816}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.200:4444/ses..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (ff0f0833e7589a229648a370c93b6ba3)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: ff0f0833e7589a229648a370c93b6ba3
+2024-09-12 15:03:17 INFO  TC_001_AccountRegistrationTest:59 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-12 15:03:23 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2024-09-12 15:03:24 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
+2024-09-12 15:03:25 INFO  TC_002_LoginTest:25 - clicked on login link under myaccount..
+2024-09-12 15:03:25 INFO  TC_002_LoginTest:29 - Entering valid email and password..
+2024-09-12 15:03:26 INFO  TC_002_LoginTest:33 - clicked on ligin button..
+2024-09-12 15:03:26 INFO  TC_002_LoginTest:47 - **** Finished TC_002_LoginTest  ****
+2024-09-12 15:15:59 INFO  TC_001_AccountRegistrationTest:17 - ***Starting AccountRegistrationTest****
+2024-09-12 15:16:09 ERROR TC_001_AccountRegistrationTest:54 - Test failed: element not interactable
+  (Session info: chrome=128.0.6613.120)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [26cf11f975c08932d4f6461c8180ba1b, clickElement {id=f.3FCD4EF2477DE8C6362DB545E3E97AC4.d.54352D76DF383237F45123255F72F55A.e.70}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63096}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63096/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (26cf11f975c08932d4f6461c8180ba1b)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: 26cf11f975c08932d4f6461c8180ba1b
+2024-09-12 15:16:09 INFO  TC_001_AccountRegistrationTest:59 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-12 15:16:13 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2024-09-12 15:26:12 INFO  Utils:112 - [TestNG] Running:
+  D:\eclipse-workspace\SeleniumWebDriver\OpencartV121\master.xml
+
+2024-09-12 15:26:18 INFO  TC_001_AccountRegistrationTest:17 - ***Starting AccountRegistrationTest****
+2024-09-12 15:26:19 INFO  TC_001_AccountRegistrationTest:24 - Clicked on MyAccount Link.. 
+2024-09-12 15:26:20 INFO  TC_001_AccountRegistrationTest:27 - Clicked on Register Link.. 
+2024-09-12 15:26:20 INFO  TC_001_AccountRegistrationTest:31 - Providing customer details...
+2024-09-12 15:26:22 INFO  TC_001_AccountRegistrationTest:45 - Validating expected message..
+2024-09-12 15:26:22 INFO  TC_001_AccountRegistrationTest:49 - Test passed
+2024-09-12 15:26:22 INFO  TC_001_AccountRegistrationTest:59 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-12 15:26:27 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2024-09-12 15:26:28 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
+2024-09-12 15:26:28 INFO  TC_002_LoginTest:25 - clicked on login link under myaccount..
+2024-09-12 15:26:28 INFO  TC_002_LoginTest:29 - Entering valid email and password..
+2024-09-12 15:26:30 INFO  TC_002_LoginTest:33 - clicked on ligin button..
+2024-09-12 15:26:30 INFO  TC_002_LoginTest:47 - **** Finished TC_002_LoginTest  ****
+2024-09-12 15:26:36 INFO  TC_003_LoginDDT:26 - **** Starting TC_003_LoginDDT *****
+2024-09-12 15:26:40 INFO  TC_003_LoginDDT:76 - **** Finished TC_003_LoginDDT *****
+2024-09-12 15:26:40 INFO  TC_003_LoginDDT:26 - **** Starting TC_003_LoginDDT *****
+2024-09-12 15:26:43 INFO  TC_003_LoginDDT:76 - **** Finished TC_003_LoginDDT *****
+2024-09-12 15:26:43 INFO  TC_003_LoginDDT:26 - **** Starting TC_003_LoginDDT *****
+2024-09-12 15:26:45 INFO  TC_003_LoginDDT:76 - **** Finished TC_003_LoginDDT *****
+2024-09-12 15:26:45 INFO  TC_003_LoginDDT:26 - **** Starting TC_003_LoginDDT *****
+2024-09-12 15:26:57 INFO  TC_003_LoginDDT:76 - **** Finished TC_003_LoginDDT *****
+2024-09-12 15:26:57 INFO  TC_003_LoginDDT:26 - **** Starting TC_003_LoginDDT *****
+2024-09-12 15:27:00 INFO  TC_003_LoginDDT:76 - **** Finished TC_003_LoginDDT *****
+2024-09-12 15:27:05 INFO  TC_004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
+2024-09-12 15:27:06 INFO  TC_004_SearchProductTest:34 -  Finished TC_004_SearchProductTest 
+2024-09-12 15:27:11 INFO  TC_005_AddToCartPageTest:15 -  Starting TC_005_AddToCartPageTest 
+2024-09-12 15:37:25 INFO  Utils:112 - [TestNG] Running:
+  D:\eclipse-workspace\SeleniumWebDriver\OpencartV121\master.xml
+
+2024-09-12 15:37:38 INFO  TC_001_AccountRegistrationTest:17 - ***Starting AccountRegistrationTest****
+2024-09-12 15:37:39 INFO  TC_001_AccountRegistrationTest:24 - Clicked on MyAccount Link.. 
+2024-09-12 15:37:40 INFO  TC_001_AccountRegistrationTest:27 - Clicked on Register Link.. 
+2024-09-12 15:37:40 INFO  TC_001_AccountRegistrationTest:31 - Providing customer details...
+2024-09-12 15:37:42 INFO  TC_001_AccountRegistrationTest:45 - Validating expected message..
+2024-09-12 15:37:42 INFO  TC_001_AccountRegistrationTest:49 - Test passed
+2024-09-12 15:37:42 INFO  TC_001_AccountRegistrationTest:59 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-12 15:37:48 INFO  TC_002_LoginTest:16 - **** Starting TC_002_LoginTest  ****
+2024-09-12 15:37:48 INFO  TC_002_LoginTest:23 - clicked on myaccount link on the home page..
+2024-09-12 15:37:49 INFO  TC_002_LoginTest:25 - clicked on login link under myaccount..
+2024-09-12 15:37:49 INFO  TC_002_LoginTest:29 - Entering valid email and password..
+2024-09-12 15:37:50 INFO  TC_002_LoginTest:33 - clicked on ligin button..
+2024-09-12 15:37:51 INFO  TC_002_LoginTest:47 - **** Finished TC_002_LoginTest  ****
+2024-09-12 15:37:59 INFO  TC_003_LoginDDT:26 - **** Starting TC_003_LoginDDT *****
+2024-09-12 15:38:02 INFO  TC_003_LoginDDT:76 - **** Finished TC_003_LoginDDT *****
+2024-09-12 15:38:02 INFO  TC_003_LoginDDT:26 - **** Starting TC_003_LoginDDT *****
+2024-09-12 15:38:04 INFO  TC_003_LoginDDT:76 - **** Finished TC_003_LoginDDT *****
+2024-09-12 15:38:04 INFO  TC_003_LoginDDT:26 - **** Starting TC_003_LoginDDT *****
+2024-09-12 15:38:07 INFO  TC_003_LoginDDT:76 - **** Finished TC_003_LoginDDT *****
+2024-09-12 15:38:07 INFO  TC_003_LoginDDT:26 - **** Starting TC_003_LoginDDT *****
+2024-09-12 15:38:19 INFO  TC_003_LoginDDT:76 - **** Finished TC_003_LoginDDT *****
+2024-09-12 15:38:19 INFO  TC_003_LoginDDT:26 - **** Starting TC_003_LoginDDT *****
+2024-09-12 15:38:23 INFO  TC_003_LoginDDT:76 - **** Finished TC_003_LoginDDT *****
+2024-09-12 15:38:27 INFO  TC_004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
+2024-09-12 15:38:28 INFO  TC_004_SearchProductTest:34 -  Finished TC_004_SearchProductTest 
+2024-09-12 15:38:35 INFO  TC_005_AddToCartPageTest:15 -  Starting TC_005_AddToCartPageTest 
+2024-09-12 15:38:38 INFO  TC_005_AddToCartPageTest:41 -  Finished TC_004_SearchProductTest 
